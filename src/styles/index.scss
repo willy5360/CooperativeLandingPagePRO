@@ -1,13 +1,52 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@font-face {
+    font-family: mygorduraFONT;
+    src: url('../img/DancingScript-VariableFont_wght.ttf');
+  }
 
-/* 
+#app{
+    background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
 
-    You can write your own styles here...
+h1{
+    top: 25px;
+    position: relative;
+    display: flex;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    justify-content: center;
+    font-size: 10vw;
+    font-family: "mygorduraFONT";
+    color: black;
+    align-items: center;
+}
+.Carousel_images{
+    top: 10px;
+    position: relative;
+    padding: 5% 10%;
+    // border: black solid 1px;
+    width: 100%;
+    background: transparent;
+    background-color: rgba(242, 212, 155, .15);  
+    backdrop-filter: blur(5px);
+}
+.cornelita{
 
-*/
+    width: 15%;
+    height: 15%;
+    margin-right: 15px;
+}
+.navbar{
+    // border: black solid 1px;
+    z-index: 1;
+    margin-top: -30px;
+    position: fixed;
+    width: 100%;
+    padding:1% 0;
+    background-color: rgba(242, 212, 155, .15);  
+    backdrop-filter: blur(5px);
+}
+
