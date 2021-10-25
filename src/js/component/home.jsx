@@ -4,16 +4,19 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import cornelita from "../../img/PinClipart.com_wheel-clipart-black-and_130263.png";
-
+import MyNavbar from "./navbar.jsx";
 const IMGURL = [
 	"https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
 	"https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
 	"https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 ];
-//create your first component
+
 
 const Home = () => {
 	return (
+    	<div>
+			<MyNavbar />
+		</div>
 		<div className="jumbotron">
 			{/* <Navbar>
 				<Container>
@@ -74,7 +77,6 @@ const Home = () => {
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
-		</div>
 	);
 };
 
