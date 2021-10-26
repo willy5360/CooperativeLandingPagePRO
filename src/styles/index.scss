@@ -13,7 +13,7 @@
 }
 
 h1{
-    top: 25px;
+    top: 30px;
     position: relative;
     display: flex;
     
@@ -49,5 +49,12 @@ h1{
     background-color: rgba(242, 212, 155, .15);  
     backdrop-filter: blur(5px);   
 }
-
-
+.navbar-brand{
+    font-size: 2vw;
+}
+a.nav-link{
+    font-size: 1vw;
+}
+a.nav-link:hover{
+    font-weight: bold;
+}
