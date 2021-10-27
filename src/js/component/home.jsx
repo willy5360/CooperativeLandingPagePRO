@@ -1,7 +1,8 @@
 import React from "react";
+import cornelita from "../../img/PinClipart.com_wheel-clipart-black-and_130263.png";
 
-//include images into your bundle
-import Card from "react-bootstrap/Card";
+import Jumbo from "./carousel.jsx";
+import MyNavbar from "./navbar.jsx";
 
 import Cards from "../../js/component/cards.jsx";
 import image1 from "../../img/jessica-kantak-bailey--ZbSWuzMors-unsplash.jpg";
@@ -39,7 +40,6 @@ const Card_info = [
 	}
 ];
 
-//create your first component
 const Home = () => {
 	let cardsContainer = Card_info.map((parameter, index) => {
 		return (
@@ -51,8 +51,20 @@ const Home = () => {
 			/>
 		);
 	});
-
-	return <div className="cards_Container">{cardsContainer}</div>;
+ 
+	return (
+		<div>
+			<MyNavbar />
+			<div className="jumbotron">
+				<h1>
+					<img className="cornelita" src={cornelita} /> Mi Cornelita
+				</h1>
+				<Jumbo />
+				<div className="cards_Container">{cardsContainer}</div>;
+			</div>
+			
+		</div>
+	);
 };
 
 export default Home;

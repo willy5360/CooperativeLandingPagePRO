@@ -1,4 +1,8 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@font-face {
+    font-family: mygorduraFONT;
+    src: url('../img/DancingScript-VariableFont_wght.ttf');
+  }
 
 .cards_Container {
     display: flex;
@@ -33,3 +37,59 @@
     box-shadow: 4px 5px burlywood;
     border-color: #BF6C06 ;
 }
+#app{
+    background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+h1{
+    top: 30px;
+    position: relative;
+    display: flex;
+    
+    justify-content: center;
+    font-size: 10vw;
+    font-family: "mygorduraFONT";
+    color: black;
+    align-items: center;
+}
+.Carousel_images{
+    top: 10px;
+    position: relative;
+    padding: 5% 10%;
+    // border: black solid 1px;
+    width: 100%;
+    background: transparent;
+    background-color: rgba(242, 212, 155, .15);  
+    backdrop-filter: blur(5px);
+}
+.cornelita{
+
+    width: 15%;
+    height: 15%;
+    margin-right: 15px;
+}
+
+.navbar-brand{
+    font-size: 2vw;
+}
+a.nav-link{
+    font-size: 1vw;
+}
+a.nav-link:hover{
+    font-weight: bold;
+}
+
+
+#navbar {
+    z-index: 1;
+    margin-top: -30px;
+    position: fixed;
+    width: 100%;
+    padding:1% 0;
+    background-color: rgba(242, 212, 155, .15);  
+    backdrop-filter: blur(5px)
+  }
