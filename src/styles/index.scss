@@ -6,14 +6,18 @@
 
 .cards_Container {
     display: flex;
+    width: 100%;
+    padding: 5% 10%;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     margin-top: 50px;
 }
 
 .card {
     border-radius: 2rem;
     margin: 8px;
+    background-color: rgba(242, 212, 155, .15);  
+    backdrop-filter: blur(5px);
 } 
 
 .card-title {
@@ -22,8 +26,9 @@
 
 .card-body {
     text-align: center;
-    background-color: #D9CAAD;
-    color: #F2F2F2;
+    background: transparent;
+    
+    color: black;
 }
 
 .card-body button {
@@ -42,16 +47,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 h1{
-    top: 30px;
+    top: 40px;
     position: relative;
     display: flex;
     
     justify-content: center;
-    font-size: 10vw;
+    font-size: 9.5vw;
     font-family: "mygorduraFONT";
     color: black;
     align-items: center;
@@ -73,11 +78,24 @@ h1{
     margin-right: 15px;
 }
 
-.navbar-brand{
-    font-size: 2vw;
+a.navbar-brand{
+    display: flex;
+    font-size: 2.2vw;
+    align-self: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: 0;
+    
+    
 }
+.navbar-light .navbar-brand {
+    color:#BF6C06;}
 a.nav-link{
-    font-size: 1vw;
+    font-size: 1.75vw;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#BF6C06;
 }
 a.nav-link:hover{
     font-weight: bold;
@@ -92,4 +110,47 @@ a.nav-link:hover{
     padding:1% 0;
     background-color: rgba(242, 212, 155, .15);  
     backdrop-filter: blur(5px)
-  }
+}
+
+.FooterBody{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    background-color: rgba(242, 212, 155, .15);  
+    backdrop-filter: blur(5px)
+}
+.FooterBodyColumn{
+    width: 100%;
+    height: 85%;
+    margin: 0 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .FooterBody img{
+     height: 35px;
+     width: 35px;
+     margin-right: 10px;
+     color:red;
+ }
+ ul{
+     display: inline-flex;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+ }
+li {
+    margin: 0 15px;
+    list-style: none;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #BF6C06;
+}

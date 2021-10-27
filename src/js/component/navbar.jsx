@@ -16,9 +16,7 @@ const MyNavbar = () => {
 			<Container>
 				<Row>
 					<Col sm={10}>
-						<Navbar.Brand href="#home">
-							Start Bootstrap
-						</Navbar.Brand>
+						<Navbar.Brand href="#home">Bienvenidos</Navbar.Brand>
 					</Col>
 					<Col sm={2}>
 						<Navbar.Toggle aria-controls="responsive-navbar-nav" />

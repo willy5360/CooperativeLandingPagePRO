@@ -9,6 +9,7 @@ import image1 from "../../img/jessica-kantak-bailey--ZbSWuzMors-unsplash.jpg";
 import image2 from "../../img/courtney-cook-Mp99lbxMQOU-unsplash.jpg";
 import image3 from "../../img/shayna-douglas-H8qwryGP_h0-unsplash.jpg";
 import image4 from "../../img/visual-stories-micheile-bYMlStcT4po-unsplash.jpg";
+import Footer from "./footer.jsx";
 
 const Card_info = [
 	{
@@ -51,7 +52,7 @@ const Home = () => {
 			/>
 		);
 	});
- 
+
 	return (
 		<div>
 			<MyNavbar />
@@ -60,9 +61,9 @@ const Home = () => {
 					<img className="cornelita" src={cornelita} /> Mi Cornelita
 				</h1>
 				<Jumbo />
-				<div className="cards_Container">{cardsContainer}</div>;
 			</div>
-			
+			<div className="cards_Container">{cardsContainer}</div>;
+			<Footer />
 		</div>
 	);
 };
