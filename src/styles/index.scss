@@ -39,16 +39,7 @@ h1{
     height: 15%;
     margin-right: 15px;
 }
-.navbar{
-    // border: black solid 1px;
-    z-index: 1;
-    margin-top: -30px;
-    position: fixed;
-    width: 100%;
-    padding:1% 0;
-    background-color: rgba(242, 212, 155, .15);  
-    backdrop-filter: blur(5px);   
-}
+
 .navbar-brand{
     font-size: 2vw;
 }
@@ -58,3 +49,14 @@ a.nav-link{
 a.nav-link:hover{
     font-weight: bold;
 }
+
+
+#navbar {
+    z-index: 1;
+    margin-top: -30px;
+    position: fixed;
+    width: 100%;
+    padding:1% 0;
+    background-color: rgba(242, 212, 155, .15);  
+    backdrop-filter: blur(5px)
+  }
