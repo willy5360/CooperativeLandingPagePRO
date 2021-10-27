@@ -52,7 +52,7 @@ const Home = () => {
 		);
 	});
 
-	return <div>{cardsContainer}</div>;
+	return <div className="cards_Container">{cardsContainer}</div>;
 };
 
 export default Home;

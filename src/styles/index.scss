@@ -1,2 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.cards_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 2rem;
+    margin: 8px;
+} 
+
+.card-title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-body {
+    text-align: center;
+    background-color: #D9CAAD;
+    color: #F2F2F2;
+}
+
+.card-body button {
+    background-color: #BF6C06;
+    color: #F2F2F2;
+    border-color: #BF6C06 ;
+}
+
+.card-body button:hover {
+    background-color: #BF6C06;
+    box-shadow: 4px 5px burlywood;
+    border-color: #BF6C06 ;
+}
