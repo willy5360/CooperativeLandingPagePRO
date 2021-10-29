@@ -17,7 +17,7 @@ const Footer = () => {
 						</a>
 					</li>
 					<li>
-						<a href="https://github.com/Anigabi">
+						<a href="https://github.com/Anigabi" target="_blank">
 							<img src={Cornelita2} alt="" /> Anigabi
 						</a>
 					</li>
